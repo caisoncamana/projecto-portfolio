@@ -124,9 +124,9 @@ article{
   border-radius: 8px;
 }
 
-#skills > h2{
+.title{
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #skills-container{
@@ -161,6 +161,37 @@ article{
 #skills-container .progresso{
   height: 100%;
   background-color: var(--destaque-inverso);
+}
+
+#formacao-container{
+  display: flex;
+
+}
+
+#formacao-container .curso{
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+ 
+  transition: 0.5s;
+  ;
+  padding: 10px 0 10px 10px;
+}
+
+#formacao-container .curso:hover{
+  border-left-width: 15px;
+  cursor: pointer;
+  border-color: var(--destaque);
+}
+
+#formacao-container .periodo{
+  font-weight: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#formacao-container .titulacao{
+  color: var(--destaque-inverso);
 }
 
 @media screen and (min-width: 768px) {
