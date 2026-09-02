@@ -30,6 +30,7 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  
 }
 
 header{
@@ -39,6 +40,9 @@ header{
   background-color: var(--destaque);
   color: var(--texto);
   padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 90;
 }
 
 nav#menu ul{
